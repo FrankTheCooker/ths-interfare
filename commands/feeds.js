@@ -4,7 +4,7 @@ exports.run = (client, message, args, func) => {
   if (!message.member.roles.some(r => ["+Announcer Permissions"].includes(r.name))) return;
   const embed = new Discord.RichEmbed()
   .setColor(0x7289DA)
-  .setTitle("Feeds for THS Interfare")
+  .setTitle("Feeds for THS InterfarEEEEEEEEEEEEEE RELOAD COMMAND TEST")
   .addField("updates", `**Role: <@&513775638805741568>**\n**Channel: <#489498856166522882>**`, true)
   .addField("staff", `**Role: <@&517409402446151680>**\n**Channel: <#517408740123738113>**`, true)
   .addField("huge", `**Role: @everyone**\n**Channel: <#489498856166522882>**`, true)
