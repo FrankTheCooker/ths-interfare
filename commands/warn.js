@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 exports.run = async (client, message, args, func) => {
   if (!message.member.roles.some(r => ["Chairman", "Vice Chairman", "Server Moderator"].includes(r.name)))
       return message.channel.send("Sorry, you don't have permissions to use this!");
-  const {caseNumber} = require('./util/caseNumber.js');
+  const {caseNumber} = require('../util/caseNumber.js');
   let user = message.mentions.users.first() || message.guild.members.get(args[0]);
   const modlog = client.channels.find('id', '500783942903922698');
   const caseNum = await caseNumber(client, modlog);
