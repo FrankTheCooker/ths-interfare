@@ -17,6 +17,7 @@ const db = require("quick.db");
 const ms = require("parse-ms");
 const moment = require("moment");
 const profanities = require("profanities");
+const math = require("mathjs");
 
 const config = require("./config.json");
 
@@ -143,7 +144,7 @@ if (message.content.startsWith(config.prefix + "feed announce ping")) {
         let ops = {
           active: active
       }
-        let commandFile = require(`./commands/${cmd}.js`);
+        let commandFile = require(`ths-interfare/commands/${cmd}.js`);
         commandFile.run(client, message, args, func, ops);
     } catch (e) {
         console.log(e.stack);
