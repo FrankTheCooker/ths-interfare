@@ -17,7 +17,6 @@ const db = require("quick.db");
 const ms = require("parse-ms");
 const moment = require("moment");
 const profanities = require("profanities");
-const math = require("mathjs");
 
 const config = require("./config.json");
 
