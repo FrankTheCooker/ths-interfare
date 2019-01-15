@@ -1,0 +1,36 @@
+SQLite format 3@  ��.,P
+��^
+�z,
+�
+�
+E��O�O##gtableUSERUNMUTEsUSERUNMUTEsCREATE TABLE USERUNMUTEs (ID TEXT, json TEXT)I
+ctableUSERMUTEsUSERMUTEsCREATE TABLE USERMUTEs (ID TEXT, json TEXT)U''ktableUNMUTENUMBERsUNMUTENUMBERs
+CREATE TABLE UNMUTENUMBERs (ID TEXT, json TEXT)O##gtableMUTENUMBERsMUTENUMBERsCREATE TABLE MUTENUMBERs (ID TEXT, json TEXT)L
+!!etableUSERKICKSsUSERKICKSsCREATE TABLE USERKICKSs (ID TEXT, json TEXT)O	##gtableKICKNUMBERsKICKNUMBERs
+CREATE TABLE KICKNUMBERs (ID TEXT, json TEXT)FatableUSERBANsUSERBANs	CREATE TABLE USERBANs (ID TEXT, json TEXT)L!!etableBANNUMBERsBANNUMBERsCREATE TABLE BANNUMBERs (ID TEXT, json TEXT)L!!etableUSERUNBANsUSERUNBANsCREATE TABLE USERUNBANs (ID TEXT, json TEXT)R%%itableUNBANNUMBERsUNBANNUMBERsCREATE TABLE UNBANNUMBERs (ID TEXT, json TEXT):YtablejsonjsonCREATE TABLE json (ID TEXT, json TEXT)R%%itableUSERWARNINGsUSERWARNINGsCREATE TABLE USERWARNINGs (ID TEXT, json TEXT)O##gtableWARNNUMBERsWARNNUMBERsCREATE TABLE WARNNUMBERs (ID TEXT, json TEXT)O##gtableCASENUMBERsCASENUMBERsCREATE TABLE CASENUMBERs (ID TEXT, json TEXT)
+��;case_47926820286654056451
+�xx�/auser_505135250242928650_47926820286654056411%Ouser_undefined_47926820286654056470user_505135250242928650_4792682028665405649
+���X��\
+�
+�
+Q
+��N�Dg5warn_505135250242928650_11_479268202866540564"No reason provided":S5warn_undefined_7_479268202866540564"No reason provided"Dg5warn_505135250242928650_10_479268202866540564"No reason provided":S5warn_undefined_6_479268202866540564"No reason provided"C
+e5warn_505135250242928650_9_479268202866540564"No reason provided":S5warn_undefined_5_479268202866540564"No reason provided"Ce5warn_505135250242928650_8_479268202866540564"No reason provided"C
+e5warn_505135250242928650_7_479268202866540564"No reason provided":	S5warn_undefined_3_479268202866540564"No reason provided"Ce5warn_505135250242928650_6_479268202866540564"No reason provided":S5warn_undefined_2_479268202866540564"No reason provided"5S+warn_undefined_1_479268202866540564"Testing over."Be3warn_505135250242928650_5_479268202866540564"Testing purposes."Ce5warn_505135250242928650_4_479268202866540564"No reason provided"6ewarn_505135250242928650_3_479268202866540564"Test."6ewarn_505135250242928650_2_479268202866540564"Test."6ewarn_505135250242928650_1_479268202866540564"Test."
+�@@���h�Cchangelog[{"entry":"test","timestamp":1545409787029},{"entry":"Fixed ban + warn command.","timestamp":1545409865945},{"entry":"Added case numbers","timestamp":1545409873161},{"entry":"Tags are now integrated into <@523504302434811905>","timestamp":1545409891589},{"entry":"Added all Dyno CCs into <@523504302434811905> (including pizza <:PepestanZoomedReallyCloseToFace:515640213150629898> )","timestamp":1545410707763},{"entry":"Bot logs all warns, kicks, and bans. hehehe","timestamp":1545410753275},{"entry":"Added purge command.","timestamp":1545421734231},{"entry":"Added autorole system when someone joins.","timestamp":1545421766993},{"entry":"Edited training tag responses for easy use.","timestamp":1546108720912},{"entry":"Added help command","timestamp":1546116132374},{"entry":"Added Commands command.","timestamp":1546116148929},{"entry":"Role locked commands","timestamp":1546189958630},{"entry":"Added commands: Lock, Unlock, Working and Broken.","timestamp":1546190104472},{"entry":"added Ping command","timestamp":1546209033553},{"entry":"Bot now gives Unverified role upon join","timestamp":1546706016177}]6C=autoRole_479268202866540564"<@&489498087233159177>"��'changelog[{"entry":"test","timestamp":1545409787029},{"entry":"Fixed ban + warn command.","timestamp":1545409865945},{"entry":"Added case numbers","timestamp":1545409873161},{"entry":"Tags are now integrated into <@523504302434811905>","timestamp":1545409891589},{"entry":"Added all Dyno CCs into <@523504302434811905> (including pizza <:PepestanZoomedReallyCloseToFace:515640213150629898> )","timestamp":1545410707763},{"entry":"Bot logs all warns, kicks, and bans. hehehe","timestamp":1545410753275},{"entry":"Added purge command.","timestamp":1545421734231},{"entry":"Added autorole system when someone joins.","timestamp":1545421766993},{"entry":"Edited training tag responses for easy use.","timestamp":1546108720912},{"entry":"Added help command","timestamp":1546116132374},{"entry":"Added Commands command.","timestamp":1546116148929},{"entry":"Role locked commands","timestamp":1546189958630},{"entry":"Added commands: Lock, Unlock, Working and Broken.","timestamp":1546190104472},{"entry":"added '&?!prefix_479268202866540564"\"ths!\""
+��&Ouser_undefined_47926820286654056418
+��I;U5unban_undefined_4_479268202866540564"No reason provided";U5unban_undefined_3_479268202866540564"No reason provided";U5unban_undefined_2_479268202866540564"No reason provided";U5unban_undefined_1_479268202866540564"No reason provided"
+���.auser_528731327642730496_4792682028665405641.auser_505135250242928650_4792682028665405645
+
+
+p�x4��n*
+�
+�
+p<
+W5unban_undefined_18_479268202866540564"No reason provided"<	W5unban_undefined_17_479268202866540564"No reason provided"<W5unban_undefined_16_479268202866540564"No reason provided"Bc5ban_505135250242928650_5_479268202866540564"No reason provided"<W5unban_undefined_15_479268202866540564"No reason provided"Bc5ban_505135250242928650_4_479268202866540564"No reason provided"Bc5ban_528731327642730496_1_479268202866540564"No reason provided"Bc5ban_505135250242928650_3_479268202866540564"No reason provided"Bc5ban_505135250242928650_2_479268202866540564"No reason provided"Bc5ban_505135250242928650_1_479268202866540564"No reason provided"
+���.auser_525736156503998484_4792682028665405642.auser_382273901490733067_4792682028665405643
+���Ce5kick_525736156503998484_2_479268202866540564"No reason provided"4ekick_525736156503998484_1_479268202866540564"cya"
+��.auser_525736156503998484_4792682028665405642
+��.auser_525736156503998484_4792682028665405642
+��Ce5mute_525736156503998484_2_479268202866540564"No reason provided"
+��Ei5unmute_525736156503998484_2_479268202866540564"No reason provided"
