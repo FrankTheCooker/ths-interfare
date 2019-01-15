@@ -171,7 +171,7 @@ if (message.content.startsWith(config.prefix + "commands 3")) {
         let ops = {
           active: active
       }
-        let commandFile = require(`ths-interfare/commands/${cmd}.js`);
+        let commandFile = require(`./commands/${cmd}.js`);
         commandFile.run(client, message, args, func, ops);
     } catch (e) {
         console.log(e.stack);
