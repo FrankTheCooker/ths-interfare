@@ -1,0 +1,30 @@
+{
+  "name": "THSInterfare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "better-sqlite3": "^5.2.1",
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4",
+    "fs": "^0.0.2",
+    "moment": "^2.23.0",
+    "ms": "^2.1.1",
+    "parse-ms": "^2.0.0",
+    "profanities": "^2.9.0",
+    "quick.db": "^7.0.0-b20",
+    "quick.hook": "^1.5.1",
+    "sqlite3": "^4.0.5"
+  },
+  "engines": {
+    "node": "11.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}
