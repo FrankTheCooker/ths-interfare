@@ -1,4 +1,4 @@
-const config = require('./config.json');
+const config = require('../config.json');
 
 async function embedSan(embed) {
   embed.message ? delete embed.message : null;
