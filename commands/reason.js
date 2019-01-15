@@ -11,7 +11,7 @@ async function embedSan(embed) {
   return embed;
 }
 
-exports.run = async (client, message, args) => {
+exports.run = async (client, message, args, func) => {
   const modlog = client.channels.find('name', 'ths-mod_logs');
   const caseNumber = args.shift();
   const newReason = args.join(' ');
