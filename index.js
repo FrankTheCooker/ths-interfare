@@ -111,33 +111,6 @@ if (message.content.startsWith(config.prefix + "feed announce ping")) {
   client.guilds.get("479268202866540564").channels.get("489498856166522882").send("<@&489504532200554513>: " + args.splice(2).join(' '))
 }
   
-if (message.content.startsWith(config.prefix + "commands 1")) {
-  const embed = new Discord.RichEmbed()
-  .setTitle("Normal/fun Commands")
-  .setDescription("Showing the normal/fun commands.\n\n\ncommands - Shows this tab.\nhelp - Shows help tab.\nchangelog - Shows changelog of this bot.\lsar - Shows colour roles list\nrps - Rock Paper Scissors.\nping - Gives the bot ping.\nuserinfo - Shows your userinfo, tag a user in command to see their userinfo.\nem - Fun command.\nwelcome - Welcome an user, only user once on a user, to be used in #clubhouse.\naskverify - Ask verify to get verified, gets used in #verify, abusing will result in consequences.\ntags - All our tags we use.\npizza - Kidnap an pizza deliverer.\nunpizza - Unkidnap a pizza deliverer.")
-  .setColor(0xFF3300)
-    
-    message.channel.send(embed)
-}
-  
-if (message.content.startsWith(config.prefix + "commands 2")) {
-  const embed = new Discord.RichEmbed()
-  .setTitle("Staff Commands")
-  .setDescription("Showing staff commands.\n\n\nverify - Verify an member.\nunverify - Unverify an member.\nmod - Mod an user.\nbot - Give an bot all bot roles by mention.\ntrained - Up an MIT to SM.\ntraining - Gives training roles to MIT.\nwarn - Warn an user.\nkick - Kick an user.\nreason - Add/edit an case by ID, only on warns!\npurge - purges messages.\ndm - DM's an user.")
-  .setColor(0x00CC00)
-    
-    message.channel.send(embed)
-}
-
-if (message.content.startsWith(config.prefix + "commands 3")) {
-  const embed = new Discord.RichEmbed() // Executive commands: Update, Mac, Frank, Troll, Untroll, Point, Ban, Unban
-     .setTitle("Executive Commands")
-     .setDescription("Showing executive commands.\n\n\nlock - Locks the bot.\nunlock - Unlocks the bot.\nworking - Put the bot to `Operative`.\nbroken - Put the bot to `non-operative`.\nupdate - Add an update to the changelog.\nmac - After troll on MaC, gives MaC his roles back.\nfrank - After troll on Frank, gives Frank his roles back.\nTroll - troll an user.\nuntroll - Untroll an user.\npoint - Point an user.\nban - Ban an user.\nunban - Unban an user.")
-     .setColor(0x000000)
-    
-    message.channel.send(embed)
-}
-  
   // THS
 
   if (message.channel.id === '493175125739307028') {
