@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const config = require("./config.json");
 
 exports.run = async (client, message, args, func) => {
   if (!message.member.roles.some(r => ["Chairman", "Vice Chairman", "Server Moderator"].includes(r.name)))
@@ -10,7 +9,7 @@ exports.run = async (client, message, args, func) => {
   const caseNum = await caseNumber(client, modlog);
   if (!modlog) return message.reply('I cannot find a mod-log channel');
   if (message.mentions.users.size < 1) return message.reply('You must mention someone or specify an id.*').catch(console.error);
-  const reason = args.splice(1, args.length).join(' ') || `Awaiting moderator's input. Use ${config.prefix}reason ${caseNum} <reason>.`;
+  const reason = args.splice(1, args.length).join(' ') || `Awaiting moderator's input. Use ths!reason ${caseNum} <reason>.`;
   const embed = new Discord.RichEmbed()
   .setTimestamp()
   .setAuthor(`Case ${caseNum} | Warn | ${user.username}#${user.discriminator}`, user.displayAvatarURL)
