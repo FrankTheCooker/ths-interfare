@@ -24,5 +24,5 @@ exports.run = (client, message, args, func) => {
     usernameUser = mention || member.user
     UserMention = message.mentions.members.first() || message.guild.members.get(args[0]) || member
   }
-  message.channel.send(``\${usernameUser.tag}\`'s avatar is: ${usernameUser.displayAvatarURL({size: 1024})}`)
+  message.channel.send(`\`${usernameUser.tag}\`'s avatar is: ${usernameUser.displayAvatarURL({size: 1024})}`)
 }
