@@ -3,3 +3,4 @@ deploy:
   provider: heroku
   api_key:
     secure: "vFMSG08pAsfYBR1PvL5zSg"
+  app: ths-interfare
