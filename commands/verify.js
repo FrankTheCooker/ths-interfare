@@ -1,39 +1,18 @@
 const Discord = require('discord.js');
-const config = require("./config.json");
 
 exports.run = async (client, message, args, func) => {
-    if (!message.member.roles.some(r => ["Chairman", "Vice Chairman", "Server Moderator"].includes(r.name)))
+	let member = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
+  if(!member)
+  return message.reply("Please mention a valid member of this server");
+  if (!message.member.roles.some(r => ["Dyno Verification"].includes(r.name)))
       return message.channel.send("Sorry, you don't have permissions to use this!");
-  async function embedSan(embed) {
-  embed.message ? delete embed.message : null;
-  embed.footer ? delete embed.footer.embed : null;
-  embed.provider ? delete embed.provider.embed : null;
-  embed.thumbnail ? delete embed.thumbnail.embed : null;
-  embed.image ? delete embed.image.embed : null;
-  embed.author ? delete embed.author.embed : null;
-  embed.fields ? embed.fields.forEach(f => {delete f.embed;}) : null;
-  return embed;
-    client.guilds.get("479268202866540564").channels.get("517118784016744448").send(`${message.author} used **reason**`)
-}
+	let role = message.guild.roles.find(r => r.name === "Verified");
+	let role2 = message.guild.roles.find(r => r.name === "=== LR Section ===");
+	let role3 = message.guild.roles.find(r => r.name === "Unverified");
 
-  const modlog = client.channels.find('id', '500783942903922698');
-  const caseNumber = args.shift();
-  const newReason = args.join(' ');
-  const user = message.mentions.users.first();
-
-  await modlog.fetchMessages({limit:100}).then((messages) => {
-  const caseLog = messages.filter(m => m.author.id === client.user.id &&
-      m.embeds[0] &&
-      m.embeds[0].type === 'rich' &&
-      m.embeds[0].footer &&
-      m.embeds[0].footer.text.startsWith('Case') &&
-      m.embeds[0].footer.text === `Case ${caseNumber}`
-    ).first();
-    modlog.fetchMessage(caseLog.id).then(logMsg => {
-      const embed = logMsg.embeds[0];
-      embedSan(embed);
-      embed.description = embed.description.replace(`Awaiting moderator's input. Use ${config.prefix}reason ${caseNumber} <reason>.`, newReason);
-      logMsg.edit({embed});
-    });
-  });
+	member.addRole(role).catch(console.error);
+	member.addRole(role2).catch(console.error);
+	member.removeRole(role3).catch(console.error);
+  message.channel.send(`<:success:523531815072301092> Changed roles for ${member.user.tag}, +${role.name}, +${role2.name}, -${role3.name}`)
+  client.guilds.get("479268202866540564").channels.get("517118784016744448").send(`${message.author} used **verify**`)
 }
