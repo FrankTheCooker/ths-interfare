@@ -17,4 +17,5 @@ exports.run = async (client, message, args, func) => {
   .setFooter(`Case ${caseNum}`)
   return client.channels.get(modlog.id).send(embed);
   client.guilds.get("479268202866540564").channels.get("517118784016744448").send(`${message.author} used **warn**`);
+  message.reply("The user has been warned.")
 }
