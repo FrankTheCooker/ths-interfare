@@ -1,0 +1,3 @@
+exports.run = (client, message, args, func) => {
+message.reply("The perm invite to this server is: https://discord.gg/gWttmQU")
+}
