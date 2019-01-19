@@ -52,5 +52,5 @@ exports.run = async (client, message, args, func) => {
     .setTimestamp()
     
     client.guilds.get("479268202866540564").channels.get("500785695216893962").send(embed2);
-	client.guilds.get("479268202866540564").channels.get("517118784016744448").send(`${message.author} used **purge**`)
+    client.guilds.get("479268202866540564").channels.get("517118784016744448").send(`${message.author} used **purge**`)
 }
