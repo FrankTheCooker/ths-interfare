@@ -34,7 +34,7 @@ exports.run = async (client, message, args, func) => {
 			message.channel.bulkDelete(messages)
 				.catch(error => console.log(error.stack));
 		});
-    client.guilds.get("479268202866540564").channels.get("517118784016744448").send(`${message.author} used **purge**`)
+    
   
     const embed = new Discord.RichEmbed()
     .setColor(0x117EA6)
@@ -52,4 +52,5 @@ exports.run = async (client, message, args, func) => {
     .setTimestamp()
     
     client.guilds.get("479268202866540564").channels.get("500785695216893962").send(embed2);
+    client.guilds.get("479268202866540564").channels.get("517118784016744448").send(`${message.author} used **purge**`)
 }
