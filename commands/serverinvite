@@ -1,0 +1,6 @@
+const Discord = require('discord.js');
+
+exports.run = (client, message, args, func) => {
+message.reply("The perm invite to this server is:")
+message.channel.send("https://discord.gg/gWttmQU")
+}
